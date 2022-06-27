@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <string.h>
 
+
+//find all permutations of a given array of strings
 int next_permutation(int n, char** s){
 	//rise till you fall, then switch and sort
 	int no_next = 1;
